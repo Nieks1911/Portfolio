@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8bf5db37-c55a-4d96-809e-6b369ef29a4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/allprojects.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/allprojects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +41,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cle3_interactive_design_webapp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xamppnew\htdocs\Projects\portfolio\php" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,6 +65,19 @@
       <workItem from="1583915152338" duration="2183000" />
       <workItem from="1583918883173" duration="4461000" />
       <workItem from="1583929247358" duration="1294000" />
+      <workItem from="1584011281033" duration="2083000" />
+      <workItem from="1584277574362" duration="605000" />
+      <workItem from="1584451641627" duration="1339000" />
+      <workItem from="1584518791434" duration="1227000" />
+      <workItem from="1584950629832" duration="599000" />
+      <workItem from="1585067003859" duration="599000" />
+      <workItem from="1585124892858" duration="140000" />
+      <workItem from="1585394700238" duration="5296000" />
+      <workItem from="1585470082887" duration="5639000" />
+      <workItem from="1585587798643" duration="2603000" />
+      <workItem from="1585647000628" duration="1545000" />
+      <workItem from="1585650619623" duration="11000" />
+      <workItem from="1585654815450" duration="26000" />
     </task>
     <servers />
   </component>
@@ -63,9 +85,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1583924212570">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585654840048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583924212570" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585654840048" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1585470982048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1585470982048" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585588231199">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585588231199" />
   </component>
 </project>

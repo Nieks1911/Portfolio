@@ -11,15 +11,35 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80px;
-    height: 80px;
-    border: 2px black solid;
+    width: 100px;
+    height: 100px;
     margin-top: 2%;
+}
+
+#pixelheart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+}
+
+#name {
+    color: red;
+    text-align: center;
+    padding-top: 15px;
+    text-shadow: 1px 1px black;
 }
 
 .title {
     text-align: center;
     padding-top: 15px;
+}
+
+#bold {
+    color: black;
+    text-shadow: 2px 2px white;
 }
 
 .container {
@@ -37,12 +57,16 @@ body {
     grid-template-columns: 5% 26.6% 5% 26.6% 5% 26.6% 5%;
 }
 
-.about {
+.abouttitle {
     margin-top: 10%;
     grid-column: 2/3;
     border: black solid 2px;
     text-align: center;
     padding: 20%;
+    background-image: url("../images/o.jpg");
+    background-size: 100%;
+    background-position: left;
+    opacity: 0.9;
 }
 
 .allprojects {
@@ -51,6 +75,9 @@ body {
     border: black solid 2px;
     text-align: center;
     padding: 20%;
+    background-image: url("../images/projects.jpg");
+    background-size: 120%;
+    background-position: right;
 }
 
 .contact {
@@ -59,6 +86,10 @@ body {
     border: black solid 2px;
     text-align: center;
     padding: 20%;
+    background-image: url("../images/contact.jpg");
+    background-size: 100%;
+    background-position: left;
+    opacity: 0.9;
 }
 
 .footer {
@@ -67,12 +98,42 @@ body {
     text-align: center;
 }
 
+a.boxlink{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 a {
     text-decoration: none;
     color: red;
 }
-
 a:hover {
     color: black;
+    text-shadow: 2px 2px white;
+
 }
+
+.aboutgrid {
+    display: grid;
+    grid-template-columns: 5% 42.5% 5% 42.5% 5%;
+}
+
+.aboutsection {
+    margin-top: 10%;
+    grid-column: 2/3;
+}
+
+.aboutimgbox {
+    margin-top: 10%;
+    grid-column: 4/5;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+
+}
+#aboutmeimg {
+    width: 100%;
+}
+
 
