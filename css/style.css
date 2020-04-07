@@ -94,8 +94,10 @@ body {
 
 .footer {
     margin-top: 4%;
+    margin-bottom: 3%;
     grid-column: 1/8;
     text-align: center;
+
 }
 
 a.boxlink{
@@ -136,4 +138,48 @@ a:hover {
     width: 100%;
 }
 
+.contact_form_grid {
+    display:grid;
+    grid-template-columns: 5% 20% 5% 1fr 30%;
+    grid-template-areas:
+    ". . . form_text ."
+    ". contact_info . contact_form .";
+    padding-top: 20px;
+}
+
+#form_text {
+    grid-area: form_text;
+    margin-bottom: 1%;
+}
+.contact_form {
+    grid-area: contact_form;
+    text-align: center;
+    border: 1.5px solid black;
+    padding: 50px;
+}
+
+#contact_info {
+    grid-area: contact_info;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+}
 

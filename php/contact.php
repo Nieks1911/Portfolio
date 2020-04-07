@@ -46,7 +46,7 @@ if (isset($_POST['fullname']) && isset($_POST['email']) && isset($_POST['subject
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CONTACT</title>
+    <title>CONTACT ME - Nieks Portfolio</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -67,20 +67,30 @@ if (isset($_POST['fullname']) && isset($_POST['email']) && isset($_POST['subject
     </div>
 </div>
 
-<form action="" method="post">
-    <input type="text" name="fullname" placeholder="Full name">
-    <br>
-    <input type="text" name="email" placeholder="Email">
-    <br>
-    <input type="text" name="subject" placeholder="Subject">
-    <br>
-    <textarea name="message" placeholder="Message"></textarea>
-    <button type="submit">Send away!</button>
-</form>
+<div class="contact_form_grid">
+    <p id="form_text">Send me an email by filling out the form below:</p>
+    <form class="contact_form" action="" method="post">
+        <input class="input" type="text" name="fullname" placeholder="Full name">
+        <br>
+        <input class="input" type="text" name="email" placeholder="Your email">
+        <br>
+        <input class="input" type="text" name="subject" placeholder="Subject">
+        <br>
+        <textarea class="input" name="message" placeholder="Message" rows="10" columns="50"></textarea>
+        <br>
+        <button class="button" type="submit">Send</button>
+    </form>
+
+    <div id="contact_info">
+        <p>Contact info</p>
+        <p>Email: niekschouten1911@gmail.com</p>
+        <p>Phone: 06 19282135</p>
+    </div>
+</div>
 
 <div class="grid">
     <div class="footer">
-        <a href="../html/index.html">HOME</a> -
+        <a href="../html/index.html">HOMEPAGE</a> -
         <a href="../html/about.html">ABOUT</a> -
         <a href="../html/allprojects.html">ALL PROJECTS</a> -
         <a href="../php/contact.php">CONTACT</a>
