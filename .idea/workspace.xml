@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf5db37-c55a-4d96-809e-6b369ef29a4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/bellediertotaal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/heart pixel art_hover 254x254.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/maquette_cle3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/no_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/portfolip.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/allprojects.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/allprojects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/heart pixel art 254x254.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -31,21 +38,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YwJsYlmHJZuJaWiPKi3ER3c7MB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../foodmagazine" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Projects\portfolio\js" />
       <recent name="C:\xamppnew\htdocs\Projects\portfolio\php" />
     </key>
   </component>
@@ -83,17 +94,24 @@
       <workItem from="1586194480926" duration="1983000" />
       <workItem from="1586265111991" duration="1555000" />
       <workItem from="1586269923329" duration="3137000" />
+      <workItem from="1586278080924" duration="101000" />
+      <workItem from="1586436716790" duration="63000" />
+      <workItem from="1586516716428" duration="1656000" />
+      <workItem from="1586607457845" duration="10726000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586275837194">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586615528721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586275837194" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586615528721" />
     <state x="604" y="336" key="NewPhpFileDialog" timestamp="1585470982048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -7,7 +7,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#logo {
+/* Header */
+.pixelheart {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -16,13 +17,9 @@ body {
     margin-top: 2%;
 }
 
-#pixelheart {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    height: 100px;
-    margin-top: 2%;
+.title {
+    text-align: center;
+    padding-top: 15px;
 }
 
 #name {
@@ -32,16 +29,26 @@ body {
     text-shadow: 1px 1px black;
 }
 
-.title {
+/* Footer */
+.footer {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    grid-column: 1/8;
     text-align: center;
-    padding-top: 15px;
+
 }
 
-#bold {
+.footer_link{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer_link:hover {
     color: black;
-    text-shadow: 2px 2px white;
+    margin-right: 10px;
 }
 
+/* Homepage */
 .container {
     text-align: center;
     padding: 2%;
@@ -50,6 +57,11 @@ body {
     margin-top: 3%;
     background-color: red;
     color: white;
+}
+
+#bold {
+    color: black;
+    text-shadow: 2px 2px white;
 }
 
 .grid {
@@ -92,30 +104,18 @@ body {
     opacity: 0.9;
 }
 
-.footer {
-    margin-top: 4%;
-    margin-bottom: 3%;
-    grid-column: 1/8;
-    text-align: center;
-
-}
-
 a.boxlink{
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px black;
 }
 
-a {
-    text-decoration: none;
-    color: red;
-}
-a:hover {
+a.boxlink:hover {
     color: black;
     text-shadow: 2px 2px white;
-
 }
 
+/* About me */
 .aboutgrid {
     display: grid;
     grid-template-columns: 5% 42.5% 5% 42.5% 5%;
@@ -132,18 +132,84 @@ a:hover {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 15%;
-
 }
+
 #aboutmeimg {
     width: 100%;
 }
 
+/* All projects */
+.allprojects_grid {
+    display:grid;
+    margin-top: 5%;
+    grid-template-columns: 15% 1fr 10% 1fr 15%;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+            ". portfolio_box . ledopafval_box ."
+            ". trimafspreker_box . fp_box .";
+    padding-top: 20px;
+}
+
+.portfolio_box {
+    grid-area: portfolio_box;
+    margin-bottom: 10%;
+}
+
+.ledopafval_box {
+    grid-area: ledopafval_box;
+    margin-bottom: 10%;
+}
+
+.trimafspreker_box {
+    grid-area: trimafspreker_box;
+    margin-bottom: 10%;
+}
+
+.fp_box {
+    grid-area: fp_box;
+    margin-bottom: 10%;
+}
+
+.project_title {
+    margin-bottom: 2%;
+}
+
+.finished {
+    color: green;
+    float: right;
+}
+
+.unfinished {
+    color: red;
+    float: right;
+}
+
+.project_img {
+    width: 100%;
+    height: 100%;
+    border: solid 2px black;
+}
+
+.details_btn {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+}
+
+.details_btn:hover {
+    color: black;
+}
+
+/* Contact me */
 .contact_form_grid {
     display:grid;
     grid-template-columns: 5% 20% 5% 1fr 30%;
     grid-template-areas:
-    ". . . form_text ."
-    ". contact_info . contact_form .";
+            ". . . form_text ."
+            ". contact_info . contact_form .";
     padding-top: 20px;
 }
 
@@ -151,6 +217,7 @@ a:hover {
     grid-area: form_text;
     margin-bottom: 1%;
 }
+
 .contact_form {
     grid-area: contact_form;
     text-align: center;
@@ -158,8 +225,11 @@ a:hover {
     padding: 50px;
 }
 
-#contact_info {
-    grid-area: contact_info;
+.input {
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 5%;
+    border: 1px solid black;
 }
 
 .button {
@@ -176,10 +246,20 @@ a:hover {
     width: 100%;
 }
 
-.input {
-    width: 100%;
-    padding: 1%;
-    margin-bottom: 5%;
-    border: 1px solid black;
+#contact_info {
+    grid-area: contact_info;
 }
 
+/* General */
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.link {
+    color: red;
+}
+
+.link:hover {
+    color: black;
+}

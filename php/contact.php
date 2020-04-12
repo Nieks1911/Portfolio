@@ -54,8 +54,9 @@ if (isset($_POST['fullname']) && isset($_POST['email']) && isset($_POST['subject
 <div class="flex">
     <div class="header">
         <a href="../html/index.html">
-            <img id="pixelheart" src="../images/heart pixel art 254x254.png" alt="heart">
-        </a>
+            <img class="pixelheart" src="../images/heart%20pixel%20art%20254x254.png" alt="heart"
+                 onmouseover="this.src='../images/heart pixel art_hover 254x254.png'"
+                 onmouseout="this.src='../images/heart%20pixel%20art%20254x254.png'">        </a>
         <h1 class="title">To Learn & To Create</h1>
         <h3 id="name">Niek Schouten</h3>
     </div>
@@ -82,18 +83,20 @@ if (isset($_POST['fullname']) && isset($_POST['email']) && isset($_POST['subject
     </form>
 
     <div id="contact_info">
-        <p>Contact info</p>
+        <h3>My info</h3>
+        <br>
         <p>Email: niekschouten1911@gmail.com</p>
         <p>Phone: 06 19282135</p>
+        <p>Blog: <a class="link" href="https://stud.hosted.hr.nl/0989262/">stud.hosted.hr.nl/0989262</a></p>
     </div>
 </div>
 
 <div class="grid">
     <div class="footer">
-        <a href="../html/index.html">HOMEPAGE</a> -
-        <a href="../html/about.html">ABOUT</a> -
-        <a href="../html/allprojects.html">ALL PROJECTS</a> -
-        <a href="../php/contact.php">CONTACT</a>
+        <a class="footer_link" href="index.html">HOMEPAGE</a>
+        <a class="footer_link" href="about.html">ABOUT ME</a>
+        <a class="footer_link" href="allprojects.html">ALL PROJECTS</a>
+        <a class="footer_link" href="../php/contact.php">CONTACT ME</a>
     </div>
 </div>
 
