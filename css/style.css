@@ -263,3 +263,114 @@ a {
 .link:hover {
     color: black;
 }
+
+@media (max-width: 600px) {
+
+    /* Home page */
+    .grid {
+        display: grid;
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+                ". abouttitle ."
+                ". allprojects ."
+                ". contact .";
+
+    }
+
+    .abouttitle {
+        grid-area: abouttitle;
+    }
+
+    .allprojects {
+       grid-area: allprojects;
+    }
+
+    .contact {
+        grid-area: contact;
+    }
+
+    .footer {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .footer_link {
+        font-size: 15px;
+    }
+
+    /* About me */
+    .aboutgrid {
+        display: grid;
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: ". aboutsection ."
+    ". aboutimgbox .";
+    }
+
+    .aboutsection {
+        grid-area: aboutsection;
+    }
+
+    .aboutimgbox {
+        grid-area: aboutimgbox;
+    }
+
+    /* All projects */
+    .allprojects_grid {
+        display: grid;
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: ". portfolio_box ."
+    ". ledopafval_box ."
+    ". trimafspreker_box ."
+    ". fp_box .";
+    }
+
+    .portfolio_box {
+        grid-area: portfolio_box;
+        padding-bottom: 20%;
+    }
+
+    .ledopafval_box {
+        grid-area: ledopafval_box;
+        padding-bottom: 20%;
+    }
+
+    .trimafspreker_box {
+        grid-area: trimafspreker_box;
+        padding-bottom: 20%;
+    }
+
+    .fp_box {
+        grid-area: fp_box;
+        padding-bottom: 20%;
+    }
+
+    /* Contact me */
+    .contact_form_grid {
+        display: grid;
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: 5% 1fr 1fr;
+        grid-template-areas: ". form_text ."
+        ". contact_form ."
+        ". contact_info .";
+    }
+
+    #form_text {
+        grid-area: form_text;
+    }
+
+    .contact_form {
+        grid-area: contact_form;
+    }
+
+    #contact_info {
+        margin-top: 10%;
+        grid-area: contact_info;
+    }
+
+    .input {
+        padding: 3%;
+    }
+}

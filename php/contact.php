@@ -54,9 +54,8 @@ if (isset($_POST['fullname']) && isset($_POST['email']) && isset($_POST['subject
 <div class="flex">
     <div class="header">
         <a href="../html/index.html">
-            <img class="pixelheart" src="../images/heart%20pixel%20art%20254x254.png" alt="heart"
-                 onmouseover="this.src='../images/heart pixel art_hover 254x254.png'"
-                 onmouseout="this.src='../images/heart%20pixel%20art%20254x254.png'">        </a>
+            <img class="pixelheart" src="../images/heart%20pixel%20art%20254x254.png" alt="heart">
+        </a>
         <h1 class="title">To Learn & To Create</h1>
         <h3 id="name">Niek Schouten</h3>
     </div>
